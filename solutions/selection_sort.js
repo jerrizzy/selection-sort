@@ -1,16 +1,21 @@
 function selectionSort(arr) {
-  const sorted = [];
-
-  while (arr.length > 0) {
-    const min = Math.min(...arr);
-    const idx = arr.indexOf(min);
-
-    sorted.push(min);
-    arr.splice(idx, 1);
-  }
-
-  return sorted;
+  for (i = 0; )
 }
+
+// this function uses the sort method to sort
+// function selectionSort(arr) {
+//   const sorted = [];
+
+//   while (arr.length > 0) {
+//     const min = Math.min(...arr);
+//     const idx = arr.indexOf(min);
+
+//     sorted.push(min);
+//     arr.splice(idx, 1);
+//   }
+
+//   return sorted;
+// }
 
 if (require.main === module) {
   // add your own tests in here
